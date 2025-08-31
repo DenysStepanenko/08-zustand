@@ -136,7 +136,8 @@ const NoteForm = () => {
             <option value="Todo">Todo</option>
             <option value="Work">Work</option>
             <option value="Personal">Personal</option>
-            <option value="Ideas">Ideas</option>
+            <option value="Meeting">Meeting</option>
+            <option value="Shopping">Shopping</option>
           </select>
           {errors.tag && <div className={css.error}>{errors.tag}</div>}
         </div>
